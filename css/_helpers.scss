@@ -1,0 +1,152 @@
+.u-margin {
+	&-top {
+		margin-top: $inner-gutter;
+	}
+	&-left {
+		margin-left: $inner-gutter;
+	}
+	&-bottom {
+		margin-bottom: $inner-gutter;
+	}
+	&-right {
+		margin-right: $inner-gutter;
+	}
+	&-all {
+		margin: $inner-gutter;
+	}
+}
+
+.u-padding {
+	&-top {
+		padding-top: $inner-gutter;
+	}
+	&-left {
+		padding-left: $inner-gutter;
+	}
+	&-bottom {
+		padding-bottom: $inner-gutter;
+	}
+	&-right {
+		padding-right: $inner-gutter;
+	}
+	&-all {
+		padding: $inner-gutter;
+	}
+}
+
+.u-padding {
+	&-top--half {
+		padding-top: $inner-gutter / 2;
+	}
+	&-left--half {
+		padding-left: $inner-gutter / 2;
+	}
+	&-bottom--half {
+		padding-bottom: $inner-gutter / 2;
+	}
+	&-right--half {
+		padding-right: $inner-gutter / 2;
+	}
+	&-all--half {
+		padding: $inner-gutter / 2;
+	}
+}
+
+.u-custom-block {
+	min-width: 200px;
+	min-height: 100px;
+	background: url('../assets/images/bg-questions.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-align: center;
+	display: inline-block;
+	overflow-wrap: break-word;
+	position: relative;
+	padding: $inner-gutter;
+	position: relative;
+	left: 110px;
+
+	&--middle {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+.u-loading {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: $color-primary-positive;
+	z-index: 999;
+
+	&--spinner {
+		display: inline-block;
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		img {
+			width: 100px;
+		}
+	}
+
+	.intro-loading-text{
+		font-family: 'Luckiest Guy', cursive;
+		letter-spacing: 5px;
+		position: absolute;
+		top: 20%;
+		left: 50%;
+		z-index: 1;
+		color: $color-bg-primary--alt;
+		text-align: center;
+		transform: translate(-50%, -50%);
+	}
+}
+
+.u-divider {
+	width: 80%;
+	height: 4px;
+	border-radius: 2px;
+	background: $color-mix;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	display: block;
+}
+
+.u-item-center {
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.u-position {
+	&-absolute {
+		position: absolute !important;
+	}
+	&-relative {
+		position: relative !important;
+	}
+	&__bottom-zero {
+		bottom: 0;
+	}
+	&__right-zero {
+		bottom: 0;
+	}
+	&__left-zero {
+		bottom: 0;
+	}
+	&__top-zero {
+		bottom: 0;
+	}
+}
+
+.u-block {
+	display: block;
+}

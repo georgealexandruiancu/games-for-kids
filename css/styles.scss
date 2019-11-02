@@ -1,0 +1,252 @@
+/**
+ * Author:    Iancu George-Alexandru
+ * Created:   02.11.2019
+ * 
+ * (c) Copyright by Iancu George-Alexandru.
+ **/
+
+// - colors
+$color-primary-positive: 			#fffefd;
+$color-bg-primary:					#89d4e0;
+$color-bg-primary--alt:				#0e88c9;
+$color-mix:							#4EB299;
+$color-primary-negative:			#000;
+$color-primary-inputs:				#F2E6C4;
+$color-primary-err:					#e74c3c;
+
+// - vars
+$inner-gutter:						20px;
+
+@import '_base.scss';
+@import '_buttons.scss';
+@import '_helpers.scss';
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	color: $color-primary-positive;
+}
+
+.intro {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: $color-primary-positive;
+	font-family: 'Luckiest Guy', cursive;
+	z-index: 1;
+
+	&-wrapper {
+		width: 700px;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 1;
+		position: relative;
+	}
+}
+
+.intro-image {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	z-index: 0;
+	img {
+		width: 100%;
+		opacity: .5;
+	}
+
+	&__absolute {
+		position: absolute;
+		bottom: 0px;
+		left: 50%;
+		z-index: 0;
+		transform: translateX(-50%);
+	}
+}
+
+.intro-title {
+	width: 100%;
+	overflow-wrap: break-word;
+	text-align: center;
+	font-size: 3em;
+	color: $color-bg-primary--alt;
+	z-index: 1;
+	position: relative;
+	text-shadow: 2px 2px 0px $color-primary-negative;
+}
+
+.intro-nickname {
+	
+	text-align: center;
+
+	&__input {
+		input {
+			width: 350px;
+			border: none;
+			border: 2px solid;
+			border-radius: 30px;
+			border-color: $color-mix;
+			font-style: italic;
+			outline: none;
+		}
+	}
+}
+
+.menu-bg-image {
+	min-width: 100%;
+	min-height: 100%;
+	background: url('../assets/images/menu.PNG');
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.menu-wrapper {
+	border-radius: 20px;
+	width: 700px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(255, 255, 255, 0.81);
+}
+.menu-header {
+	color: $color-bg-primary--alt;
+	text-align: center;
+	font-size: 2rem;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.menu-elements {
+	padding: $inner-gutter;
+	overflow: scroll;
+	overflow-x: hidden;
+	max-height: 400px;
+	margin-bottom: $inner-gutter;
+	
+	&__item {
+		position: relative;
+		width: 100%;
+		height: 50px;
+		background: $color-mix;
+		color: white;
+		border-radius: 50px;
+		cursor: pointer;
+		margin-top: $inner-gutter / 2;
+		font-family: 'Luckiest Guy', cursive;
+		letter-spacing: 2px;
+
+		&:hover {
+			background: $color-bg-primary;
+		}
+
+		&:hover .menu-elements__button{
+			background: $color-mix;
+		}
+	}
+
+	&__text {
+		position: relative;
+		left: 50px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	&__button {
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		transform: translateY(-50%);
+		background: $color-bg-primary;
+		padding: $inner-gutter / 4;
+		font-size: .9em;
+	}
+}
+.game-title {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 2.5em;
+	color: $color-bg-primary--alt;
+	text-align: center;
+}
+
+.game-wrapper{
+	width: 80%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.game-rules {
+	font-size: 1.3em;
+	color: $color-primary-negative;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+$arrow-color: $color-bg-primary--alt;
+$arrow-size: 1em;
+$arrow-border: 0.2em;
+
+
+.link {
+  position: relative;
+  display: inline-block;
+  padding: 1em ($arrow-size * 3) 1em 1em;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: $arrow-color;
+
+  &:after, &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+  }
+  &:before {
+    top: 50%;
+    right: $arrow-size;
+    width: $arrow-size;
+    height: $arrow-size;
+    transform-origin: 50% 50%;
+    transform:  translate(0, -($arrow-size / 2)) rotate(45deg);
+    box-shadow: inset -#{$arrow-border} $arrow-border 0 0 $arrow-color;
+    border-radius: 0 $arrow-size*0.15 0 0;
+  }
+  
+  &:after {
+    top: 50%;
+    right: 1em;
+    width: $arrow-size * 2;
+    height: $arrow-border;
+    transform:  translate(0, -($arrow-border / 2));
+    background-color: $arrow-color;
+  }
+  &:hover {
+    &:before {
+      transform:  translate(0.5em, -($arrow-size / 2)) rotate(45deg);
+    }
+    &:after {
+      transform:  translate(0.5em, -($arrow-border / 2));
+    }
+  }
+}
+
+.evaluation-quiz-message {
+	font-size: 1.1em;
+	text-align: center;
+	color: $color-primary-negative;
+	font-family: Arial, Helvetica, sans-serif;
+
+	&__error {
+		color: $color-primary-err;
+	}
+
+	&__good {
+		color: $color-bg-primary--alt;
+	}
+}

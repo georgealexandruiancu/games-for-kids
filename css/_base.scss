@@ -1,0 +1,33 @@
+/**
+ * Author:    Iancu George-Alexandru
+ * Created:   02.11.2019
+ * 
+ * (c) Copyright by Iancu George-Alexandru.
+ **/
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: $color-bg-primary--alt;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: $color-bg-primary;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
