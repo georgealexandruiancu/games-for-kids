@@ -262,7 +262,11 @@ a {
   display: block;
 }
 
-html, body {
+.u-display-none {
+  display: none;
+}
+
+body {
   margin: 0;
   padding: 0;
   overflow: hidden;

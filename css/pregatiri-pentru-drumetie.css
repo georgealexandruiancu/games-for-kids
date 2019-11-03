@@ -504,80 +504,23 @@ body {
   color: #0e88c9;
 }
 
-.cine-pe-cine__game-item {
-  position: relative;
-  max-width: 175px;
-  overflow: hidden;
+.game-wrapper {
+  text-align: center;
+}
+
+.pregatiri-pentru-drumetie__item {
   display: inline-block;
 }
 
-.cine-pe-cine__game-item img {
-  width: 100%;
+.pregatiri-pentru-drumetie--good {
+  border: 3px solid #4EB299;
 }
 
-.cine-pe-cine__input {
-  display: block;
-  position: absolute;
-  bottom: 1px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  border: none;
-  background: #F2E6C4;
+.pregatiri-pentru-drumetie--wrong {
+  border: 3px solid red;
 }
 
-.cine-pe-cine__input-1 {
-  width: 130px;
-  padding: 8px;
+.pregatiri-pentru-drumetie--selected {
+  border: 3px solid #0e88c9;
 }
-
-.cine-pe-cine__input-2 {
-  width: 170px;
-  padding: 15.38462px;
-}
-
-.cine-pe-cine__input-3 {
-  width: 170px;
-  padding: 15.38462px;
-}
-
-.cine-pe-cine__input-4 {
-  width: 170px;
-  padding: 15.38462px;
-}
-
-.cine-pe-cine__input-5 {
-  width: 170px;
-  padding: 15.38462px;
-}
-
-.cine-pe-cine__input-6 {
-  width: 170px;
-  padding: 15.38462px;
-}
-
-.cine-pe-cine__input-7 {
-  width: 170px;
-  padding: 15.38462px;
-}
-
-.cine-pe-cine__input-8 {
-  width: 170px;
-  padding: 15.38462px;
-}
-
-.cine-pe-cine__input-9 {
-  width: 170px;
-  padding: 15.38462px;
-}
-
-.cine-pe-cine__input--error {
-  color: white;
-  background: red;
-}
-
-.cine-pe-cine__input--good {
-  color: white;
-  background: #0e88c9;
-}
-/*# sourceMappingURL=cine-pe-cine.css.map */
+/*# sourceMappingURL=pregatiri-pentru-drumetie.css.map */

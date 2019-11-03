@@ -1,0 +1,23 @@
+// - main styles
+@import 'styles.scss';
+
+.game-wrapper {
+	text-align: center;
+}
+.pregatiri-pentru-drumetie {
+	&__item{
+		display: inline-block;
+	}
+
+	&--good {
+		border: 3px solid $color-mix;
+	}
+
+	&--wrong {
+		border: 3px solid red;
+	}
+
+	&--selected {
+		border: 3px solid $color-bg-primary--alt;
+	}
+}
