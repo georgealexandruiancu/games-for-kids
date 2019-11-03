@@ -1,0 +1,326 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>De la Comuna noastra la planeta albastra</title>
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/cel-mai-fricos.css">
+
+</head>
+<body>
+	<!-- CINE PE CINE! -->
+	
+	<div class="game-title  animated  fadeInDown">
+		Cel mai fricos <br/>
+		Sa incepem <span data-name="kidName"></span>
+	</div>
+	<div class="game-rules  animated  fadeIn">
+		Înlocuiți simbolurile cu literele din legendă și astfel veți aﬂa răspunsul iepurelui.
+		Trebuie sa trageti elementele in casute.
+	</div>
+	<div class="game-wrapper u-padding-top  u-position-relative  animated  fadeIn">
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="a">a</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">@</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="b">b</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">+</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="e">e</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">↑</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="i">i</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">#</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="m">m</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">€</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="p">p</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">◻</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="t">t</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">★</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="v">v</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">↓</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="ă">ă</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">►</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="c">c</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">=</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="g">g</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half"><</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="î">î</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">S</div> 
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="n">n</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">+</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="r">r</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">◯</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="ț">ț</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">◆</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="z">z</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">⧯</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="â">â</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">*</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="d">d</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">†</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="h">h</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">⤷</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="l">l</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">></div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="o">o</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">%</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="s">s</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">☺</div>
+		</div>
+
+		<div class="cel-mai-fricos__item">
+			<kbd data-value="u">u</kbd>
+			<div class="cel-mai-fricos__symbol  u-margin-left--half">&</div>
+		</div>
+		<div class="game-rules">
+			Poveste:
+			Într-o zi se adună în pădure toate animalele. Regele animalelor, leul rostește în auzul tuturor: - Astăzi la prânz
+			îl
+			vom păpa pe cel mai fricos... Plin de curaj iepurele iese în față și cu o voce cutremurătoare strigă:
+		</div>
+		<div class="cel-mai-fricos__holder">
+			<div class="cel-mai-fricos__group  u-margin-right--double">
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">S</div>
+				</div>
+				
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">></div>
+				</div>
+			</div>
+			<div class="cel-mai-fricos__group  u-margin-right--double">
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">%</div>
+				</div>
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">€</div>
+				</div>
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">%</div>
+				</div>
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">◯</div>
+				</div>
+			</div>
+			<div class="cel-mai-fricos__group  u-margin-right--double">
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">◻</div>
+				</div>
+			
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">↑</div>
+				</div>
+			</div>
+			<div class="cel-mai-fricos__group  u-margin-right--double">
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">=</div>
+				</div>
+
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">↑</div>
+				</div>
+
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">></div>
+				</div>
+			</div>
+			<div class="cel-mai-fricos__group  u-margin-right--double">
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">=</div>
+				</div>
+			
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">↑</div>
+				</div>
+			</div>
+
+			<div class="cel-mai-fricos__group  u-margin-right--double">
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">◻</div>
+				</div>
+			
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">&</div>
+				</div>
+
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">+</div>
+				</div>
+
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">↑</div>
+				</div>
+			</div>
+
+			<div class="cel-mai-fricos__group  u-margin-right--double">
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">€</div>
+				</div>
+			
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">*</div>
+				</div>
+			
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">+</div>
+				</div>
+			
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">@</div>
+				</div>
+			</div>
+
+			<div class="cel-mai-fricos__group  u-margin-right--double">
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">◻</div>
+				</div>
+			
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">↑</div>
+				</div>
+			</div>
+
+			<div class="cel-mai-fricos__group  u-margin-right--double">
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">€</div>
+				</div>
+			
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">#</div>
+				</div>
+
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">☺</div>
+				</div>
+
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">★</div>
+				</div>
+
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">◯</div>
+				</div>
+
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">↑</div>
+				</div>
+
+				<div class="cel-mai-fricos__input">
+					<div class="input"></div>
+					<div class="placeholder">◆</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="evaluation-quiz-message"></div>
+
+	<button class="button-primary  u-position-relative  u-padding-all  u-margin-top  u-item-center  u-block  animated  fadeIn" id="evaluation">Apasa pentru a termina</button>
+	<a href="menu.html">
+		<button class="button-primary  u-position-relative  u-padding-all--half  u-margin-top  u-item-center  u-block" id="evaluation">Inapoi la jocuri</button>
+	</a>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM=" crossorigin="anonymous"></script>
+<script src="../js/index.js"></script>
+<script src="../js/components/cel-mai-fricos.js"></script>
+<script>
+	
+	</script>
+</body>
+
+
+</html>

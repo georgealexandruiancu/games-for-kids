@@ -1,0 +1,79 @@
+// - main styles
+@import 'styles.scss';
+kbd {
+	background-color: #eee;
+	border-radius: 3px;
+	border: 1px solid #b4b4b4;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+	color: #333;
+	display: inline-block;
+	font-size: 1.3em;
+	font-weight: 700;
+	line-height: 1;
+	padding: 2px 4px;
+	white-space: nowrap;
+	cursor: move;
+}
+p {
+	color: $color-primary-negative;
+}
+
+.game-rules{
+	max-width: 700px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.cel-mai-fricos {
+	&__symbol{
+		display: inline-block;
+		color: $color-primary-positive;
+		font-size: 1.3em;
+	}
+
+	&__item {
+		display: inline-block;
+		padding: 10px;
+		background: $color-bg-primary--alt;
+		border-radius: 5px;
+		margin-top: 10px;
+	}
+
+	&__holder {
+		margin-top: 30px;
+	}
+	&__group {
+		display: inline-block;
+	}
+
+	&__input {
+		display: inline-block;
+
+		.input {
+			width: 40px;
+			height: 40px;
+			border-radius: 5px;
+			background: $color-mix;
+			border: 1px solid darken($color-mix, 20%);
+			position: relative;
+			z-index: 0;
+
+			kbd {
+				opacity: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				z-index: 999 !important;
+			}
+		}
+
+		.placeholder {
+			font-size: 1.3em;
+			color: $color-primary-negative;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+	}
+}

@@ -1,18 +1,60 @@
 .u-margin {
 	&-top {
 		margin-top: $inner-gutter;
+
+		&--half {
+			margin-top: $inner-gutter / 2;
+		}
+
+		&--double {
+			margin-top: $inner-gutter * 2;
+		}
 	}
 	&-left {
 		margin-left: $inner-gutter;
+
+		&--half {
+			margin-left: $inner-gutter / 2;
+		}
+
+		&--double {
+			margin-left: $inner-gutter * 2;
+		}
 	}
 	&-bottom {
 		margin-bottom: $inner-gutter;
+
+		&--half {
+			margin-bottom: $inner-gutter / 2;
+		}
+
+		&--double {
+			margin-bottom: $inner-gutter * 2;
+		}
 	}
 	&-right {
 		margin-right: $inner-gutter;
+
+		&--right {
+			margin-right: $inner-gutter / 2;
+		}
+
+
+		&--double {
+			margin-right: $inner-gutter * 2;
+		}
 	}
 	&-all {
 		margin: $inner-gutter;
+
+		&--half {
+			margin: $inner-gutter / 2;
+		}
+
+
+		&--double {
+			margin: $inner-gutter * 2;
+		}
 	}
 }
 

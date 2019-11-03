@@ -499,4 +499,85 @@ html, body {
 .evaluation-quiz-message__good {
   color: #0e88c9;
 }
-/*# sourceMappingURL=styles.css.map */
+
+kbd {
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+  color: #333;
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1;
+  padding: 2px 4px;
+  white-space: nowrap;
+  cursor: move;
+}
+
+p {
+  color: #000;
+}
+
+.game-rules {
+  max-width: 700px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.cel-mai-fricos__symbol {
+  display: inline-block;
+  color: #fffefd;
+  font-size: 1.3em;
+}
+
+.cel-mai-fricos__item {
+  display: inline-block;
+  padding: 10px;
+  background: #0e88c9;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.cel-mai-fricos__holder {
+  margin-top: 30px;
+}
+
+.cel-mai-fricos__group {
+  display: inline-block;
+}
+
+.cel-mai-fricos__input {
+  display: inline-block;
+}
+
+.cel-mai-fricos__input .input {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background: #4EB299;
+  border: 1px solid #2f6b5c;
+  position: relative;
+  z-index: 0;
+}
+
+.cel-mai-fricos__input .input kbd {
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 999 !important;
+}
+
+.cel-mai-fricos__input .placeholder {
+  font-size: 1.3em;
+  color: #000;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=cel-mai-fricos.css.map */
