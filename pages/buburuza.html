@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>De la Comuna noastra la planeta albastra</title>
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/buburuza.css">
+
+</head>
+<body style="overflow-y: visible;">
+	<!-- CINE PE CINE! -->
+
+	<div class="game-title  u-margin-top  animated  fadeInDown">
+		BUBURUZA  <br/>
+		Sa incepem <span data-name="kidName"></span>
+	</div>
+	<div class="game-rules" style="font-size: .8em;">
+		Deseneaza cealalta parte a buburuzei :) ! Mult succes !
+	</div>
+	<div class="u-custom-block  u-padding-top  animated infinite bounce" data-intro="slide-block-0">
+		<div class="u-custom-block--middle">
+			Buburuza !
+		</div>
+	</div>
+	<div class="game-wrapper u-padding-top  u-position-relative  animated  fadeIn">
+		
+		<div class="buburuza__item" data-item="1" data-check="false">
+			<img src="../assets/images/buburuza/Capture1.PNG" alt="">
+		</div>
+		<div class="buburuza__canvas">
+			<canvas id="myCanvas"></canvas>
+			<div class="controls">
+				<button onclick="javascript:clearArea();return false;">Sterge Tot</button>
+				Grosime : <select id="selWidth">
+					<option value="1">1</option>
+					<option value="3">3</option>
+					<option value="5" selected="selected">5</option>
+					<option value="7">7</option>
+					<option value="9">9</option>
+					<option value="11">11</option>
+				</select>
+				Culoare : <select id="selColor">
+					<option value="black">Negru</option>
+					<option value="blue" selected="selected">Albastru</option>
+					<option value="red">Rosu</option>
+					<option value="green">Verde</option>
+					<option value="yellow">Galben</option>
+					<option value="gray">Gri</option>
+				</select>
+			</div>
+		</div>
+
+	
+	</div>
+	<a href="menu.html">
+		<button class="button-primary  u-position-relative  u-padding-all--half  u-margin-top  u-item-center  u-block  u-margin-bottom" id="evaluation">Inapoi la jocuri</button>
+	</a>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="../js/index.js"></script>
+<script src="../js/components/buburuza.js"></script>
+
+</body>
+
+
+</html>

@@ -505,4 +505,22 @@ body {
 .evaluation-quiz-message__good {
   color: #0e88c9;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.recicleaza__item {
+  display: inline-block;
+  position: relative;
+}
+
+.recicleaza__item img {
+  height: 400px;
+}
+
+.recicleaza__trash {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 5px;
+  left: 120px;
+  background: red;
+}
+/*# sourceMappingURL=recicleaza.css.map */

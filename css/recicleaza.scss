@@ -1,0 +1,22 @@
+// - main styles
+@import 'styles.scss';
+
+
+.recicleaza {
+	&__item {
+		display: inline-block;
+		position:relative;
+		img {
+			height: 400px;
+		}
+	}
+
+	&__trash {
+		width: 13px; 
+		height: 13px;
+		position: absolute;
+		top: 5px;
+		left: 120px;
+		background: red;
+	}
+}

@@ -505,4 +505,37 @@ body {
 .evaluation-quiz-message__good {
   color: #0e88c9;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.buburuza__item {
+  display: inline-block;
+  position: relative;
+}
+
+.buburuza__item img {
+  height: 400px;
+}
+
+.buburuza__canvas {
+  display: inline-block;
+  position: relative;
+}
+
+.buburuza__canvas canvas {
+  width: 400px;
+  height: 450px;
+  border: 2px solid #000;
+  margin-left: -5px;
+  background: white;
+}
+
+.controls {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #2277dd;
+  padding: 5px;
+  margin: 2px;
+  color: #fff;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=buburuza.css.map */

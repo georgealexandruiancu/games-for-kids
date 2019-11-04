@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>De la Comuna noastra la planeta albastra</title>
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/recicleaza.css">
+
+</head>
+<body style="overflow-y: visible;">
+	<!-- CINE PE CINE! -->
+
+	<div class="game-title  u-margin-top  animated  fadeInDown">
+		Recicleaza  <br/>
+		Sa incepem <span data-name="kidName"></span>
+	</div>
+	<div class="game-rules" style="font-size: .8em;">
+		Trebuie sa duci deseul (patratelul rosu) la cosul de gunoi folosind butoanele de dreapta sau sagetile tastaturii !
+	</div>
+	<div class="u-custom-block  u-padding-top  animated  infinite  bounce" data-intro="slide-block-0">
+		<div class="u-custom-block--middle">
+			Recicleaza-ma !
+		</div>
+	</div>
+	<div class="game-wrapper u-padding-top  u-position-relative  animated  fadeIn" style="text-align: center;">
+		
+		<div class="recicleaza__item" data-item="1" data-check="false">
+			<img src="../assets/images/recicleaza/Capture1.PNG" alt="">
+			<div class="recicleaza__trash"></div>
+		</div>
+
+		<div style="text-align: center; display:inline-block; ">
+			<button class="button-primary  js-clickMaze" data-move="up">Sus</button><br><br>
+			<button class="button-primary  js-clickMaze" data-move="left">Stanga</button>
+			<button class="button-primary  js-clickMaze" data-move="right">Dreapta</button><br><br>
+			<button class="button-primary  js-clickMaze" data-move="down">Jos</button>
+		</div>
+
+		</div>
+
+	
+	</div>
+	<a href="menu.html">
+		<button class="button-primary  u-position-relative  u-padding-all--half  u-margin-top  u-item-center  u-block  u-margin-bottom" id="evaluation">Inapoi la jocuri</button>
+	</a>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="../js/index.js"></script>
+<script src="../js/components/recicleaza.js"></script>
+
+</body>
+
+
+</html>

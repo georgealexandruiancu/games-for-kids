@@ -1,0 +1,36 @@
+// - main styles
+@import 'styles.scss';
+
+
+.albinuta {
+	&__item {
+		display: inline-block;
+		position:relative;
+		img {
+			height: 400px;
+		}
+	}
+	&__canvas {
+		display: inline-block;
+		position: relative;
+		canvas {
+			width: 400px;
+			height: 450px;
+			border: 2px solid $color-primary-negative;
+			margin-left: -5px;
+			background: white;
+		}
+	}
+}
+
+.controls {
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-color:#2277dd;
+  padding:5px;
+  margin:2px;
+  color:#fff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
