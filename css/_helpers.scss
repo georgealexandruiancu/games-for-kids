@@ -95,7 +95,7 @@
 }
 
 .u-custom-block {
-	min-width: 200px;
+	min-width: 175px;
 	min-height: 100px;
 	background: url('../assets/images/bg-questions.png');
 	background-size: contain;
@@ -106,9 +106,8 @@
 	position: relative;
 	padding: $inner-gutter;
 	position: relative;
-	left: 110px;
-	font-family: 'Luckiest Guy', cursive;
 	letter-spacing: 1.2px;
+	font-weight: 700;
 
 	&--middle {
 		position: absolute;
@@ -197,4 +196,16 @@
 
 .u-display-none {
 	display: none;
-} 
+}
+
+.u-text-color-negative {
+	color: $color-primary-negative;
+}
+
+.u-text-right {
+	text-align: right !important;
+}
+
+.u-text-left {
+	text-align: left !important;
+}

@@ -156,7 +156,7 @@ a {
 }
 
 .u-custom-block {
-  min-width: 200px;
+  min-width: 175px;
   min-height: 100px;
   background: url("../assets/images/bg-questions.png");
   background-size: contain;
@@ -167,9 +167,8 @@ a {
   position: relative;
   padding: 20px;
   position: relative;
-  left: 110px;
-  font-family: 'Luckiest Guy', cursive;
   letter-spacing: 1.2px;
+  font-weight: 700;
 }
 
 .u-custom-block--middle {
@@ -266,6 +265,18 @@ a {
 
 .u-display-none {
   display: none;
+}
+
+.u-text-color-negative {
+  color: #000;
+}
+
+.u-text-right {
+  text-align: right !important;
+}
+
+.u-text-left {
+  text-align: left !important;
 }
 
 body {
@@ -504,6 +515,12 @@ body {
 
 .evaluation-quiz-message__good {
   color: #0e88c9;
+}
+
+.card-header {
+  background: #89d4e0;
+  background: -webkit-gradient(linear, left top, right top, from(#89d4e0), to(white));
+  background: linear-gradient(90deg, #89d4e0 0%, white 100%);
 }
 
 .recicleaza__item {

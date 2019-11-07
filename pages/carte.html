@@ -5,6 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>De la Comuna noastra la planeta albastra</title>
 	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
 	<link rel="stylesheet" href="../css/styles.css">
 	<link rel="stylesheet" href="../css/content.css">
@@ -16,22 +18,41 @@
 	<div class="game-title  u-margin-top  animated  fadeInDown">
 		Sa incepem <span data-name="kidName"></span><br><br>
 	</div>
-	<div class="u-custom-block  u-padding-top  animated infinite bounce" data-intro="slide-block-0">
-		<div class="u-custom-block--middle">
-			Ce vrei sa facem astazi ?
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="u-custom-block  animated  infinite bounce" data-intro="slide-block-0">
+					<div class="u-custom-block--middle">
+						Alege
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<button
+					class="button-primary  u-position-relative  u-padding-all--half  u-margin-top  u-item-center  u-block  u-margin-bottom"
+					id="evaluation">Carte</button>
+			</div>
+			<div class="col-md-6">
+				<button
+					class="button-primary  u-position-relative  u-padding-all--half  u-margin-top  u-item-center  u-block  u-margin-bottom"
+					id="evaluation">Jocuri</button>
+			</div>
 		</div>
 	</div>
 	<div class="game-wrapper u-padding-top  u-position-relative  animated  fadeIn">
-		<button
-			class="button-primary  u-position-relative  u-padding-all--half  u-margin-top  u-item-center  u-block  u-margin-bottom"
-			id="evaluation">Carte</button>
-		<button
-			class="button-primary  u-position-relative  u-padding-all--half  u-margin-top  u-item-center  u-block  u-margin-bottom"
-			id="evaluation">Jocuri</button>
+		
+		
 	</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
 	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	crossorigin="anonymous"></script>
 </body>
 
 
