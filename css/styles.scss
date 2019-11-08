@@ -255,4 +255,30 @@ $arrow-border: 0.2em;
 .card-header {
 	background: rgb(137,212,224);
 	background: linear-gradient(90deg, rgba(137,212,224,1) 0%, rgba(255,255,255,1) 100%);
+	cursor: pointer;
+}
+
+.input-book {
+	width: 100%;
+	border-radius: 10px;
+	border: 2px solid $color-bg-primary--alt;
+	padding-left: 20px;
+	height: 50px;
+	font-style: italic;
+	font-weight: 700;
+	color: $color-bg-primary--alt;
+	outline: none;
+}
+
+.card-body{
+	background: url('../assets/mandatory/bg-card-book.PNG');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+
+	font-weight: 700;
+}
+
+.button-primary{
+	box-shadow: 2px 1px 6px #000;
 }

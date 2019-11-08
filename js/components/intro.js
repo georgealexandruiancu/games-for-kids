@@ -39,7 +39,7 @@ $("[data-intro='button-start']").on("click", async function() {
 		<h1>Construim terenul de joaca pentru tine !</h1>
 	`);
 	setTimeout(function () {
-		window.location = "/pages/menu.html";
+		window.location = "/pages/carte.html";
 	}, 4000);
 	
 })

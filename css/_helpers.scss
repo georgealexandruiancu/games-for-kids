@@ -195,7 +195,7 @@
 }
 
 .u-display-none {
-	display: none;
+	display: none !important;
 }
 
 .u-text-color-negative {
@@ -208,4 +208,11 @@
 
 .u-text-left {
 	text-align: left !important;
+}
+
+.u-display-initial {
+	display: initial;
+} 
+.u-display-block {
+	display: block !important;
 }

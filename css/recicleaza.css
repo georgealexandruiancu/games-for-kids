@@ -264,7 +264,7 @@ a {
 }
 
 .u-display-none {
-  display: none;
+  display: none !important;
 }
 
 .u-text-color-negative {
@@ -277,6 +277,14 @@ a {
 
 .u-text-left {
   text-align: left !important;
+}
+
+.u-display-initial {
+  display: initial;
+}
+
+.u-display-block {
+  display: block !important;
 }
 
 body {
@@ -521,6 +529,19 @@ body {
   background: #89d4e0;
   background: -webkit-gradient(linear, left top, right top, from(#89d4e0), to(white));
   background: linear-gradient(90deg, #89d4e0 0%, white 100%);
+  cursor: pointer;
+}
+
+.input-book {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #0e88c9;
+  padding-left: 20px;
+  height: 50px;
+  font-style: italic;
+  font-weight: 700;
+  color: #0e88c9;
+  outline: none;
 }
 
 .recicleaza__item {
