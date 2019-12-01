@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>De la Comuna noastra la planeta albastra</title>
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+	<style>
+	.header {
+		text-align: center;
+		z-index: 999;
+	}
+	.header.pos-abs {
+		position: absolute;
+		bottom: 10px;
+		left: 0px;
+		z-index: 999;
+		width: 100%;
+	}
+	.header .associates {
+		display: inline-block;
+		text-align: center;
+	}
+
+	.header .associates img {
+		width: 130px;
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+	<div class="u-loading">
+		<div class="u-loading--spinner">
+			<img src="assets/images/spinner.png" alt="" class="animated infinite flip">
+		</div>
+		<div class="intro-loading-text">
+			
+		</div>
+	</div>
+	<div class="header">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="associates">
+					<img src="assets/mandatory/UE.png" alt="">
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="associates">
+					<img src="assets/mandatory/guvernul.png" alt="">
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="associates">
+					<img src="assets/mandatory/POCU.png" alt="" style="padding-top: 30px">
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="associates">
+					<img src="assets/mandatory/instrumente structurale.png" alt=""  style="padding-top: 20px">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="intro">
+		<div class="intro-image intro-image__absolute">
+			<img src="assets/images/intro.png" alt="">
+		</div>
+		<div class="intro-wrapper  u-padding-all bounce infinite">
+			<div class="intro-title  u-margin-top">
+				<img src="assets/mandatory/logo.png" alt="" style="width: 70%;">
+			</div>
+			<div class="intro-nickname  u-margin-top">
+				<div class="u-custom-block  u-padding-top  animated infinite bounce" data-intro="slide-block-0">
+					<div class="u-custom-block--middle">
+						Buna !
+					</div>
+				</div>
+				<div class="u-custom-block  u-padding-top  animated infinite bounce" data-intro="slide-block-1">
+					<div class="u-custom-block--middle" style="font-size: .6em;">
+						Te rugam sa iti <br/> introduci numele<br /> mai jos !
+					</div>
+				</div>
+			
+				<div class="intro-nickname__input">
+					<input type="text" placeholder="Adauga numele aici" class="u-padding-all--half" id="checkName"/>
+				</div>
+			
+				<div class="intro-nickname__button  u-margin-top">
+					<button class="button-primary  u-padding-all--half" data-intro="button-start">
+						Sa incepem
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header  pos-abs">
+		<div class="row" style="width: 100%;">
+			<div class="col-md-4">
+				<div class="associates">
+					<img src="assets/mandatory/Comuna VOila.png" alt=""  style="padding-top: 10px; width: 200px;">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="associates">
+					<img src="assets/mandatory/AESN.png" alt=""  style="padding-top: 10px; width: 120px;">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="associates">
+					<img src="assets/mandatory/Scoala Gimnaziala Voila.png" alt="" style="padding-top: 10px; width: 200px;">
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+<script src="js/components/intro.js"></script>
+</body>
+
+
+</html>

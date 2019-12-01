@@ -10,10 +10,55 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
 	<link rel="stylesheet" href="../css/styles.css">
 	<link rel="stylesheet" href="../css/content.css">
+	<style>
+		.header {
+			text-align: center;
+			z-index: 999;
+		}
+		.header.pos-abs {
+			position: absolute;
+			bottom: 10px;
+			left: 0px;
+			z-index: 999;
+			width: 100%;
+		}
+		.header .associates {
+			display: inline-block;
+			text-align: center;
+		}
 
+		.header .associates img {
+			width: 130px;
+			text-align: center;
+		}
+	</style>
 </head>
 <body style="overflow-y: visible;">
 	<!-- CINE PE CINE! -->
+	<div class="header">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="associates">
+					<img src="../assets/mandatory/UE.png" alt="">
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="associates">
+					<img src="../assets/mandatory/guvernul.png" alt="">
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="associates">
+					<img src="../assets/mandatory/POCU.png" alt="" style="padding-top: 30px">
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="associates">
+					<img src="../assets/mandatory/instrumente structurale.png" alt=""  style="padding-top: 20px">
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="intro">
 
 
@@ -37,21 +82,21 @@
 	
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<a href="book.html">
 				<button
 					class="button-primary  u-position-relative  u-padding-all--half  u-margin-top  u-item-center  u-block  u-margin-bottom"
 					id="evaluation">Carte</button>
 				</a>
 			</div>
-			<div class="col-md-4">
+			<!-- <div class="col-md-4">
 				<a href="info.html">
 					<button
 						class="button-primary  u-position-relative  u-padding-all--half  u-margin-top  u-item-center  u-block  u-margin-bottom"
 						id="evaluation">Informatii</button>
 				</a>
-			</div>
-			<div class="col-md-4">
+			</div> -->
+			<div class="col-md-6">
 				<a href="menu.html">
 				<button
 					class="button-primary  u-position-relative  u-padding-all--half  u-margin-top  u-item-center  u-block  u-margin-bottom"
@@ -64,7 +109,27 @@
 		
 		
 	</div>
+		<div class="header  pos-abs">
+			<div class="row" style="width: 100%;">
+				<div class="col-md-4">
+					<div class="associates">
+						<img src="../assets/mandatory/Comuna VOila.png" alt=""  style="padding-top: 10px; width: 200px;">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="associates">
+						<img src="../assets/mandatory/AESN.png" alt=""  style="padding-top: 10px; width: 120px;">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="associates">
+						<img src="../assets/mandatory/Scoala Gimnaziala Voila.png" alt="" style="padding-top: 10px; width: 200px;">
+					</div>
+				</div>
+			</div>
 		</div>
+	</div>
+		
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
 	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
