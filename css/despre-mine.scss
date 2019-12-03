@@ -1,0 +1,23 @@
+// - main styles
+@import 'styles.scss';
+
+.despre-mine {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: black;
+	font-size: 1.4rem;
+	
+
+	img {
+		width: 50%;
+	}
+
+	input {
+		background: none;
+		font-size: 1.4rem;
+		border: none;
+		border-bottom: 3px solid black;
+		width: 60%;
+	}
+}
+
