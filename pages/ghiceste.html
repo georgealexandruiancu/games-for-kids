@@ -1,0 +1,300 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>De la Comuna noastra la planeta albastra</title>
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+		integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/ghiceste.css">
+
+</head>
+
+<body style="overflow-y: visible;" class="game-body">
+	<!-- INTELEPCIUNEA PROVERBELOR -->
+	<div class="game-title  animated  fadeInDown">
+		Ghiceste ! <br />
+		Sa incepem <span data-name="kidName"></span>
+	</div>
+	<div class="game-rules">
+		Completeză cu răspunsul ghicitorii !
+	</div>
+	<div class="game-wrapper u-padding-top  u-position-relative  animated  fadeIn">
+		<div class="ghiceste">
+			<div class="container-fluid">
+				<div class="row  bordered">
+					<div class="col-md-6  text-ghicitoare">
+						Patru surioare suntem,<br> Pentru om folositoare.<br> Noi aducem daruri mii,<br> Bucurii
+						pentru copii.
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="anotimpurile">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+						Pește nu-i, dar stă în baltă,<br> Nici lăcustă nu-i, dar saltă,<br> Greier nu-i, nici
+						pițigoi,<br> Dar e cântăreț de soi.
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="broasca">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+						Partea-ntâi e aliment,<br> Partea a doua – instrument.<br> Ambele de le uniți,<br> Un nou
+						aliment găsiți
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="cascavalul">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Chel ca-n palmă, bosumﬂat,<bR> Zi și noapte stă culcat,<bR> S-ar scula și el, vezi bine,<bR> Însă curpenul nu-l ține … <bR>Cine nu-l cunoaște? Cine? 
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="dovleacul">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Cine școala îndrăgește,<br> Învață și socotește? 
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" style="margin-top: 20px;" data-check="elevul">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer" style="margin-top: 20px;">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Subțirel și mititel <br/> Joacă lumea după el. 
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" style="margin-top: 20px;" data-check="fluierul">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer" style="margin-top: 20px;">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Din carton, pânză sau piele,<br/> Mă purtați în spate.<br/> Ușurel și, totuși, plin de greutate.<br/> Iarna, pe ger aspru,<br/> Vara, pe căldură,<br/> Merg cu voi alături<br/> La învățătură.
+
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="ghiozdanul">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer" >VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							De mama bine spălată,<br> Periată și călcată,<br/> Pe umeraș așezată! 
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" style="margin-top: 20px;" data-check="haina">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer" style="margin-top: 20px;">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Iată vine cu steluțe<br> Albe-n frunte<br> Dinspre munte? 
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" style="margin-top: 20px;" data-check="iarna">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer" style="margin-top: 20px;">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+						Cupe albe, sângerii,<br> Stau pe lujere înﬁpte,<Br> Parc-ar ﬁ  niște făclii.<br> Hai, ghicește-le de știi! 
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="lalelele">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Cine mă iubește?<br> Cine mă-ngrijește?<br> Zi de zi muncește<br> Pentru a mă crește.<br> Vă dați seama? Este …
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="mama">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Nalt cât casa,<br> Verde ca mătasea,<br> Amar ca ﬁ erea,<br> Dulce ca mierea. 
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="nucul">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							În curte stă, lângă pom,<br>  Îi spui om, dar nu e om.<br> Soarele când încălzește<Br> Nu-l mai vezi, că se topește.
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="omul de zapada">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Ziua se mărește,<bR> Zăpada se topește,<bR> Grădina a-nverzit,<bR> Cine a venit ?
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="primavara">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							La cap domniță,<br> La coadă furculiță! 
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="randunica">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare" data-check="semaforul">
+							Am trei ochi în trei culori,<br> Sunt atent la trecători<br>  Și-ți arăt fără de grai,<br> Când să treci și când să stai.<br> Cine-s? 
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Cămăruța de lemn tare<br> Ține hainele-n păstrare. <br><br>
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="sifonierul">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Cine e și nu-i ureche <bR> Și cu gura e pereche? <bR> Eu cu cifre îl pornesc <bR> Să asculte ce-i vorbesc. 
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans"  data-check="telefonul">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Când vremea este frumoasă,<br> Șade-n cui, închisă-n casă.<br> Numai ploaia dacă vine<br> O desfac și-o iau cu mine. 
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="umbrela">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Soarele dogorește,<br> Teiul înﬂ orește,<br> Grâul este aurit.<br> Spune cine a venit?
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="vara">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+				<div class="row  bordered u-margin-top">
+					<div class="col-md-6  text-ghicitoare">
+							Nu-i făină, dar se cerne<br/> Nu-i covor, dar se așterne. 
+					</div>
+					<div class="col-md-4">
+						<input type="text" class="js-check-ans" data-check="zapada">
+					</div>
+					<div class="col-md-2">
+						<div class="button-primary u-text-center u-margin-top  js-check-ans-btn" id="checkAnswer">VERIFICĂ !</div>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="../js/index.js"></script>
+	<script src="../js/components/ghiceste.js"></script>
+</body>
+
+
+</html>
