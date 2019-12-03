@@ -631,36 +631,45 @@ body {
   height: 100%;
 }
 
-.buburuza__item {
+.unde-in-lume {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.unde-in-lume .animal {
   display: inline-block;
+  color: black;
+  font-size: 2em;
+}
+
+.unde-in-lume .animal img {
+  width: 100px;
+}
+
+.unde-in-lume .continent {
   position: relative;
-}
-
-.buburuza__item img {
-  height: 400px;
-}
-
-.buburuza__canvas {
+  clear: both;
   display: inline-block;
-  position: relative;
+  width: 300px;
+  border: 2px solid red;
 }
 
-.buburuza__canvas canvas {
-  width: 400px;
-  height: 450px;
-  border: 2px solid #000;
-  margin-left: -5px;
-  background: white;
-}
-
-.controls {
+.unde-in-lume .continent input {
+  width: 75px;
+  height: 75px;
+  font-size: 2em;
+  color: black;
+  border-color: #0e88c9;
+  border-width: 3px;
   position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: #2277dd;
-  padding: 5px;
-  margin: 2px;
-  color: #fff;
-  border-radius: 3px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding-left: 20px;
 }
-/*# sourceMappingURL=buburuza.css.map */
+
+.unde-in-lume .continent img {
+  margin-left: 100px;
+  width: 150px;
+}
+/*# sourceMappingURL=unde-in-lume.css.map */

@@ -1,0 +1,42 @@
+// - main styles
+@import 'styles.scss';
+
+.unde-in-lume {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	.animal {
+		display: inline-block;
+		color: black;
+		font-size: 2em;
+
+		img {
+			width: 100px;
+		}
+	}
+
+	.continent {
+		position: relative;
+		clear: both;
+		display: inline-block;
+		width: 300px;
+		border: 2px solid red;
+
+		input {
+			width: 75px;
+			height: 75px;
+			font-size: 2em;
+			color: black;
+			border-color: $color-bg-primary--alt;
+			border-width: 3px;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			padding-left: 20px;
+		}
+
+		img {
+			margin-left: 100px;
+			width: 150px;
+		}
+	}
+}

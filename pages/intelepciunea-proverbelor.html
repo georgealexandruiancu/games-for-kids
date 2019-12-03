@@ -1,0 +1,99 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>De la Comuna noastra la planeta albastra</title>
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+		integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/intelepciunea-proverbelor.css">
+
+</head>
+
+<body style="overflow-y: visible;" class="game-body">
+	<!-- INTELEPCIUNEA PROVERBELOR -->
+	<div class="game-title  animated  fadeInDown">
+		Intelepciunea proverbelor ! <br />
+		Sa incepem <span data-name="kidName"></span>
+	</div>
+	<div class="game-rules">
+		Rezolvand corect rebusul veti descoperi pe verticala colorata cu gri cuvantul cheie!
+	</div>
+	<div class="game-wrapper u-padding-top  u-position-relative  animated  fadeIn">
+		<div class="intelepciunea-proverbelor">
+			<div class="proverb">
+				1. Minciuna are <input type="text" id="oneInput"/> scurte.
+			</div>
+			<div class="proverb">
+				2. <input type="text" id="twoInput"/> mica, rastoarna carul mare.
+			</div>
+			<div class="proverb">
+				3. <input type="text" id="threeInput"/> face muzica.
+			</div>
+			<div class="proverb">
+				4. <input type="text" id="fourInput"/> dulce, mult aduce.
+			</div>
+			<div class="proverb">
+				5. Cine se <input type="text" id="fiveInput"/>, se aduna.
+			</div>
+			<div class="proverb">
+				6. <input type="text" id="sixInput"/> la nevoie se cunoaste.
+			</div>
+			<div class="proverb">
+				7. Pisica <input type="text" id="sevenInput"/> zgarie rau.
+			</div>
+			<div class="proverb">
+				8. Bine faci, bine <input type="text" id="eightInput"/>.
+			</div>
+			<div class="button-primary u-text-center u-margin-top" id="checkAnswer">VERIFICA !</div>
+			<div class="game-rebus  u-margin-bottom" >
+
+				<div class="one" id="one">
+					<input type="text" class="nostyle-input" disabled value="1."><input type="text" class="featured-input" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly>
+				</div>
+
+				<div class="one" id="two" style="margin-left: -560px;">
+					<input type="text" class="nostyle-input" readonly value="2."><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text"  class="featured-input" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly>
+				</div>
+
+				<div class="one" id="three" style="margin-left: -350px;">
+					<input type="text" class="nostyle-input" readonly value="3."><input type="text" readonly><input type="text" class="featured-input" readonly><input type="text"d readonly><input type="text" readonly><input type="text" readonly>
+				</div>
+
+				<div class="one" id="four" style="margin-left: -210px;">
+					<input type="text" class="nostyle-input" readonly value="4."><input type="text" class="featured-input" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly>
+				</div>
+
+				<div class="one" id="five" style="margin-left: -280px;">
+					<input type="text" class="nostyle-input" readonly value="5."><input type="text"  readonly><input type="text" readonly><input type="text" class="featured-input" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly>
+				</div>
+
+				<div class="one" id="six" style="margin-left: -70px;">
+					<input type="text" class="nostyle-input" readonly value="6."><input type="text"  readonly><input type="text"  class="featured-input" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly>
+				</div>
+
+				<div class="one" id="seven" style="margin-left: -140px;">
+					<input type="text" class="nostyle-input" readonly value="7."><input type="text" class="featured-input" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly>
+				</div>
+
+				<div class="one" id="eight" style="margin-left: -490px;">
+					<input type="text" class="nostyle-input" readonly value="8."><input type="text"  readonly><input type="text" readonly><input type="text" readonly><input type="text" class="featured-input" readonly><input type="text" readonly><input type="text" readonly><input type="text" readonly>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="../js/index.js"></script>
+	<script src="../js/components/intelepciunea-proverbelor.js"></script>
+</body>
+
+
+</html>

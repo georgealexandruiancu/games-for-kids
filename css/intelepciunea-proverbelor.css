@@ -631,36 +631,58 @@ body {
   height: 100%;
 }
 
-.buburuza__item {
-  display: inline-block;
-  position: relative;
+.intelepciunea-proverbelor {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.buburuza__item img {
-  height: 400px;
+.intelepciunea-proverbelor .proverb {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  display: block;
+  margin-top: 20px;
 }
 
-.buburuza__canvas {
-  display: inline-block;
-  position: relative;
+.intelepciunea-proverbelor .proverb input {
+  border: none;
+  border-bottom: 1px dashed black;
+  background: none;
 }
 
-.buburuza__canvas canvas {
-  width: 400px;
-  height: 450px;
-  border: 2px solid #000;
-  margin-left: -5px;
+.intelepciunea-proverbelor .game-rebus {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.intelepciunea-proverbelor .game-rebus input {
+  width: 70px;
+  height: 70px;
+  font-size: 2em;
+}
+
+.intelepciunea-proverbelor .game-rebus input.featured-input {
+  background: grey;
+  border-color: cyan;
+  color: white;
+}
+
+.intelepciunea-proverbelor .game-rebus input.nostyle-input {
   background: white;
+  border: none;
+  color: black;
+  font-size: 2.2em;
 }
 
-.controls {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: #2277dd;
-  padding: 5px;
-  margin: 2px;
-  color: #fff;
-  border-radius: 3px;
+.intelepciunea-proverbelor .game-rebus .holder {
+  font-size: 3rem;
+  color: black;
+  margin-left: 30px;
+  text-align: left;
+  margin-left: 325px;
 }
-/*# sourceMappingURL=buburuza.css.map */
+
+.intelepciunea-proverbelor .game-rebus .one {
+  font-size: 2em;
+  color: black;
+}
+/*# sourceMappingURL=intelepciunea-proverbelor.css.map */

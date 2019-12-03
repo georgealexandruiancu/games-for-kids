@@ -291,6 +291,10 @@ a {
   font-size: 25px;
 }
 
+.u-text-center {
+  text-align: center;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -445,6 +449,7 @@ body {
   font-size: 2.5em;
   color: #0e88c9;
   text-align: center;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .game-wrapper {
@@ -453,6 +458,8 @@ body {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 30px;
 }
 
 .game-rules {
@@ -460,6 +467,12 @@ body {
   color: #000;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.game-body {
+  background: url("../assets/mandatory/bg-all.png");
+  background-size: cover;
 }
 
 .link {
@@ -564,6 +577,58 @@ body {
 .img-logo-header {
   width: 33.3%;
   min-width: 350px;
+}
+
+.bg-book {
+  background: url("../assets/mandatory/bg-book.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.smart-image {
+  width: 50%;
+}
+
+.modal-games {
+  width: 350px;
+  height: 350px;
+  max-width: 350px;
+  max-height: 350px;
+  background: #0e88c9;
+  color: white;
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 99999;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  display: initial;
+}
+
+.modal-games .button-primary {
+  position: absolute;
+  bottom: 20px;
+  width: 200px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.modal-wrapper {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.774);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .game-wrapper {

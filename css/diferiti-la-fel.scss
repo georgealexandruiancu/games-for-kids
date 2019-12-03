@@ -1,0 +1,21 @@
+// - main styles
+@import 'styles.scss';
+
+.diferiti-la-fel {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: black;
+
+	.circle-input {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		padding-left: 30px;
+		font-size: 2rem;
+	}
+
+	.border-active {
+		border: 4px solid red;
+	}
+}
+

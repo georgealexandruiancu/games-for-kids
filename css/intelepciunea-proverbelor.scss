@@ -1,0 +1,55 @@
+// - main styles
+@import 'styles.scss';
+
+.intelepciunea-proverbelor {
+	font-family: Arial, Helvetica, sans-serif;
+
+	.proverb {
+		text-align: center;
+		color: black;
+		font-weight: 700;
+		display: block;
+		margin-top: 20px;
+
+		input {
+			border: none;
+			border-bottom: 1px dashed black;
+			background: none;
+		}
+	}
+
+	.game-rebus {
+		text-align: center;
+		margin-top: 20px;
+		input {
+			width: 70px;
+			height: 70px;
+			font-size: 2em;
+
+			&.featured-input {
+				background: grey;
+				border-color: cyan;
+				color: white;
+			}
+			&.nostyle-input {
+				background: white;
+				border: none;
+				color: black;
+				font-size: 2.2em;
+			}
+		}
+
+		.holder {
+			font-size: 3rem;
+			color: black;
+			margin-left: 30px;
+			text-align: left;
+			margin-left: 325px;
+		}
+		
+		.one {
+			font-size: 2em;
+			color: black;
+		}
+	}
+}

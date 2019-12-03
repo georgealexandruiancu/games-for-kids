@@ -62,3 +62,19 @@ function myFunction() {
 		}
 	}
 }
+
+function showModal(text) {
+	$('body').append(`
+		<div class="modal-wrapper">
+			<div class="modal-games">
+				<div class="text"></div>
+				<div class="button-primary  u-text-center  js-close-modal" onclick="closeModal();">OK !</div>
+			</div>
+		</div>
+	`);
+	$('.modal-games .text').html(text);
+}
+
+function closeModal() {
+	$(".modal-wrapper").css("display", "none");
+}
