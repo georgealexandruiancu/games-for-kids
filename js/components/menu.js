@@ -25,7 +25,7 @@ $(".menu-elements__button").on("click", async function() {
 		<h1>Incarcam jocul `+ me.attr('data-game') + ` pentru tine</h1>
 	`);
 	setTimeout(function () {
-		window.location = "/pages/" + me.attr('data-href') + '.html';
+		window.location = "/de-la-comuna-noastra-la-planeta-albastra/pages/" + me.attr('data-href') + '.html';
 	}, 3000);
 	
 })
